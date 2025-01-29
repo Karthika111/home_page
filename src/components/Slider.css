@@ -1,0 +1,50 @@
+/* Container for the body-slider */
+.body-slider {
+    width: 100%;
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px; /* Optional: Adds padding around the entire slider */
+  }
+  
+  /* Ensures each slide takes equal space */
+  .slick-slide {
+    display: flex;
+    justify-content: center; /* Center the images */
+  }
+  
+  
+  .slick-slide > div {
+    margin: 0 10px; /* Adds horizontal space (10px) between images */
+  }
+  
+  /* Style for images inside the slider */
+  .body-slider img {
+    width: 100%; /* Make the image take up the full width of the slide */
+    height: 300px; /* Set a fixed height for equal height across slides */
+    object-fit: cover; /* Makes sure the image fills the container without distortion */
+    border-radius: 10px; /* Optional: adds rounded corners for a nice effect */
+  }
+  
+  /* Style for the header and description */
+  .body-slider {
+    text-align: center; /* Centers the content inside the div */
+  }
+  
+  .slider-header {
+    margin-bottom: 30px;
+  }
+  
+  .slider-header h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: orangered;
+  }
+  
+  .slider-header p {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+  }

@@ -1,0 +1,66 @@
+/* Footer Styles */
+.footer {
+    background: linear-gradient(135deg, #2c3e50, #34495e); /* Gradient background */
+    color: white;
+    text-align: center;
+    padding: 40px 20px; /* Padding to make the footer more spacious */
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow above the footer */
+    margin-top: 30px; /* Add space between the footer and content above */
+  }
+  
+  /* Footer content container */
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Contact details section */
+  .contact-details {
+    margin-top: 30px;
+  }
+  
+  /* Heading for contact section */
+  .contact-details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #f39c12; /* Gold/yellow color for headings */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Style for individual contact details */
+  .contact-details p {
+    font-size: 1.1rem;
+    margin: 5px 0;
+    color: #ecf0f1; /* Light gray for text */
+  }
+  
+  /* Style for email link */
+  .contact-details a {
+    color: #f39c12; /* Gold color for email link */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  /* Hover effect for the email link */
+  .contact-details a:hover {
+    color: #e67e22; /* Darker gold color on hover */
+    text-decoration: underline;
+  }
+  
+  /* Footer social media section (if needed) */
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    color: #ecf0f1; /* Light gray for social media icons */
+    margin: 0 15px;
+    font-size: 1.5rem;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  .social-icons a:hover {
+    color: #f39c12; /* Gold color on hover */
+  }

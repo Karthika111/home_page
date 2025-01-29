@@ -1,0 +1,28 @@
+.main-menu {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu-item {
+    position: relative;
+    padding: 15px;
+    cursor: pointer;
+  }
+  
+  .mega-menu {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+   }
