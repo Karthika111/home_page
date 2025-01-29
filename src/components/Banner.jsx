@@ -10,7 +10,7 @@ const Banner = () => {
         <p>We are thrilled to have you here. Explore our amazing services and feel free to get in touch with us for any questions or inquiries.</p>
       </div>
       <div>
-        <img src="/src/assets/banner1.jpg" alt="Banner 1" className="banner-image" />
+        <img src="/src/assets/banner2.jpg" alt="Banner 1" className="banner-image" />
       </div>
 
     
